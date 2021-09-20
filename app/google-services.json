@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2728976003",
+    "firebase_url": "https://fruityapp-9a634.firebaseio.com",
+    "project_id": "fruityapp-9a634",
+    "storage_bucket": "fruityapp-9a634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2728976003:android:873b510916c5ae4a2e45b6",
+        "android_client_info": {
+          "package_name": "com.bellenorthe.fruity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2728976003-nmm84t5k7du8ga5qji3ghb6d0uhe6ko2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bellenorthe.fruity",
+            "certificate_hash": "ebe36b7d451451ad493afd6391a164e86c006f34"
+          }
+        },
+        {
+          "client_id": "2728976003-utpd304t5q8gd3oqtklvk7ju6a3rd6nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZKk7VNRbmfmMDYf7HVj3a14I26p28ILE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2728976003-utpd304t5q8gd3oqtklvk7ju6a3rd6nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bellenorthe.fruity">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.bellenorthe.fruity.init.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="MyDatabase.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.bellenorthe.fruity.db.Notification" />
+        <!--
+        Add the following to your AndroidManifest.xml to prevent the launching of your main Activity
+        if you are calling startActivity above.
+        -->
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity
+            android:name="com.bellenorthe.fruity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bellenorthe.fruity.Register"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bellenorthe.fruity.MainActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bellenorthe.fruity.HelpCenter"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.Profile"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.Cart"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.UpdateData"
+            android:theme="@style/WhiteTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bellenorthe.fruity.ForgotPassword"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bellenorthe.fruity.NotificationActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Cards"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.IndividualProduct"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.Wishlist"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.OrderDetails"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.OrderPlaced"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Tshirts"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Bags"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Calendars"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Keychains"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.bellenorthe.fruity.prodcutscategory.Stationary"
+            android:theme="@style/WhiteTheme" />
+        <activity android:name="com.bellenorthe.fruity.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
