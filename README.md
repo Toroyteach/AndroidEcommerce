@@ -1,4 +1,4 @@
-# Android Application - An E-Commerce App for Android with Material Design Pattern Using Firebase and MySQL
+# Android Application - An E-Commerce App for Android with Material Design Pattern Using Firebase, MySQL and PHP(laravel)
 
 MySQL has been used for user registration and login whereas firebase is being user for data maintenance such as user cart , wishlist , placing ording, listing orders etc !
 Backend controls are run by php laravel webapplications where admisttrators can add update and delete products which will take effect on the firebase database and inturn update then details
